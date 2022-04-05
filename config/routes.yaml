@@ -2,6 +2,10 @@ controllers:
     resource: ../src/Controller/
     type: annotation
 
+get_calendars:
+    path: /api/v1/calendars
+    controller: App\Controller\V1\Calendar\GetCalendarsController
+
 kernel:
     resource: ../src/Kernel.php
     type: annotation
