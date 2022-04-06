@@ -12,7 +12,7 @@ use App\Calendar\Domain\ValueObjects\CalendarName;
 final class CalendarCreator
 {
     public function __construct(
-        private CalendarRepository $calendarRepository
+        private $calendarRepository
     ) {
     }
 
